@@ -1,3 +1,5 @@
+[Home](index.md) | [About](about.md) | [Blog](blog/001-iam-root-cause.md)
+
 # PurpleOps Chronicles
 
 Cybersecurity is not only about controls and tooling, it is about judgment, governance, and operational reality.
