@@ -59,11 +59,11 @@ Frameworks such as ISO 27001 and NIST clearly define access control requirements
 ---
 
 ## IAM as a Risk Management Discipline
-```
+
 A more effective approach treats IAM as a **living risk domain**, not a static control set.
 
 ### Risk-Based IAM Governance Model
-
+```
 [ Business Role ]
 |
 v
