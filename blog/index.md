@@ -1,3 +1,5 @@
+[Home](../index.md) | [About](../about.md) | [Blog](index.md)
+
 # Blog
 
 Welcome to the PurpleOps Chronicles Blog.  
