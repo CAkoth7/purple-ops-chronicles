@@ -22,7 +22,7 @@ In cloud and hybrid environments, this risk is amplified. Identity is no longer 
 ---
 
 ## Typical IAM Failure Path
-
+```
 [ User / Service Identity ]
 |
 v
@@ -33,7 +33,7 @@ v
 |
 v
 [ Sensitive Data or Critical Function ]
-
+```
 
 This pattern appears repeatedly across breach investigations: legitimate identities misused because **governance failed upstream**.
 
@@ -59,7 +59,7 @@ Frameworks such as ISO 27001 and NIST clearly define access control requirements
 ---
 
 ## IAM as a Risk Management Discipline
-
+```
 A more effective approach treats IAM as a **living risk domain**, not a static control set.
 
 ### Risk-Based IAM Governance Model
@@ -74,8 +74,7 @@ v
 |
 v
 [ Continuous Monitoring & Review ]
-
-
+```
 This model embeds risk thinking into identity lifecycle management rather than reacting after incidents occur.
 
 ---
