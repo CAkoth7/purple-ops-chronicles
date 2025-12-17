@@ -1,6 +1,6 @@
 # PurpleOps Chronicles
 
-Cybersecurity is not only about controls and tooling—it is about judgment, governance, and operational reality.
+Cybersecurity is not only about controls and tooling, it is about judgment, governance, and operational reality.
 
 PurpleOps Chronicles explores identity, risk, cloud security, and AI governance within regulated and high-impact environments. The focus is on how security decisions are made, implemented, and sustained over time.
 
