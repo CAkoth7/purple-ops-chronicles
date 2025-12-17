@@ -1,4 +1,4 @@
-[Home](index.md) | [About](about.md) | [Blog](blog/001-iam-root-cause.md)
+[Home](../index.md) | [About](../about.md) | [Blog](index.md)
 
 # PurpleOps Chronicles
 
