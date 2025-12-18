@@ -8,7 +8,7 @@ Reflections and field notes on identity, access, risk, cloud security, and gover
 ## Posts
 
 ### IAM Failures Are Rarely About IAM  
-**Date:** 2025-01-10  
+**Date:** 2025-01-12  
 **Topic:** Identity & Access Management, Cloud Risk  
 **Reading time:** ~6 minutes  
 
