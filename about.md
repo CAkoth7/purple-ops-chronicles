@@ -1,4 +1,4 @@
-[Home](../index.md) | [About](../about.md) | [Blog](index.md)
+[Home](index.md) | [About](about.md) | [Blog](blog/index.md)
 
 # About
 
