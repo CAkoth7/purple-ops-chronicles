@@ -3,8 +3,6 @@ layout: default
 title: Blog
 ---
 
-[Home](../index.md) | [About](../about.md) | [Blog](index.md)
-
 # Blog
 
 Reflections and field notes on identity, access, risk, cloud security, and governance — written from practice, not theory.
