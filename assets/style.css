@@ -1,0 +1,95 @@
+/* Base reset */
+body {
+  margin: 0;
+  font-family: "Georgia", "Times New Roman", serif;
+  background-color: #f9f9fb;
+  color: #1f2933;
+  line-height: 1.7;
+}
+
+/* Layout */
+.container {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+/* Header */
+.site-header {
+  background: #2b1c3f;
+  color: #ffffff;
+}
+
+.site-title {
+  margin: 0;
+  font-size: 1.8rem;
+  font-weight: normal;
+}
+
+.site-tagline {
+  margin-top: 0.25rem;
+  font-size: 0.95rem;
+  opacity: 0.85;
+}
+
+/* Content */
+.content h1,
+.content h2,
+.content h3 {
+  color: #2b1c3f;
+  margin-top: 2.5rem;
+}
+
+.content h1 {
+  font-size: 2rem;
+}
+
+.content h2 {
+  font-size: 1.4rem;
+}
+
+.content h3 {
+  font-size: 1.1rem;
+}
+
+.content p {
+  margin: 1rem 0;
+}
+
+/* Links */
+a {
+  color: #5b2d8b;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Tables */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1.5rem 0;
+}
+
+th, td {
+  border-bottom: 1px solid #ddd;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+/* Code blocks (your diagrams) */
+pre {
+  background: #f0eef4;
+  padding: 1rem;
+  overflow-x: auto;
+  border-left: 4px solid #5b2d8b;
+}
+
+/* Footer */
+.site-footer {
+  border-top: 1px solid #ddd;
+  font-size: 0.85rem;
+  color: #555;
+}
