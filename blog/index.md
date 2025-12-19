@@ -1,3 +1,8 @@
+---
+layout: default
+title: Page Title Here
+---
+
 [Home](../index.md) | [About](../about.md) | [Blog](index.md)
 
 # Blog
