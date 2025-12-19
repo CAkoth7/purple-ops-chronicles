@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Page Title Here
+title: Blog
 ---
 
 [Home](../index.md) | [About](../about.md) | [Blog](index.md)
