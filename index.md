@@ -3,8 +3,6 @@ layout: default
 title: Home
 ---
 
-[Home](index.md) | [About](about.md) | [Blog](blog/index.md)
-
 # PurpleOps Chronicles
 
 Cybersecurity is not only about controls and tooling, it is about judgment, governance, and operational reality.
