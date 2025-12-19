@@ -1,3 +1,8 @@
+---
+layout: default
+title: Why IAM Failures Are Still the Root Cause of Most Security Incidents
+---
+
 [Home](../index.md) | [About](../about.md) | [Blog](index.md)
 
 # Why IAM Failures Are Still the Root Cause of Most Security Incidents
