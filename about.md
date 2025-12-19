@@ -2,7 +2,6 @@
 layout: default
 title: About
 ---
-
 # About
 
 I am a cybersecurity and GRC professional with over four years of experience working in highly regulated banking environments. My work focuses on identity and access management, cloud security, cyber risk governance, and the responsible adoption of artificial intelligence and machine learning within security programs.
