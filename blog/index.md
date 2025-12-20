@@ -4,7 +4,7 @@ title: Blog
 ---
 # Blog
 
-Reflections and field notes on identity, access, risk, cloud security, and governance — written from practice, not theory.
+Reflections and field notes on identity, access, risk, cloud security, and governance written from practice and theory.
 
 ---
 ## Posts
