@@ -1,6 +1,9 @@
 ---
-layout: default
-title: Why IAM Failures Are Still the Root Cause of Most Security Incidents
+layout: post
+title: "IAM Failures Are Rarely About IAM"
+date: 2025-01-12
+topic: Identity & Access Management, Cloud Risk
+reading_time: "~6 minutes"
 ---
 
 [Home](../index.md) | [About](../about.md) | [Blog](index.md)
