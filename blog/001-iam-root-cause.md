@@ -6,8 +6,6 @@ topic: Identity & Access Management, Cloud Risk
 reading_time: "~6 minutes"
 ---
 
-[Home](../index.md) | [About](../about.md) | [Blog](index.md)
-
 # Why IAM Failures Are Still the Root Cause of Most Security Incidents
 
 ## Context
