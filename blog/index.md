@@ -10,9 +10,7 @@ Reflections and field notes on identity, access, risk, cloud security, and gover
 ## Posts
 
 ### IAM Failures Are Rarely About IAM  
-**Date:** 2025-12-10  
-**Topic:** Identity & Access Management, Cloud Risk  
-**Reading time:** ~6 minutes  
+**December 10, 2025 · Identity & Access Management, Cloud Risk · ~6 minutes**
 
 A practical breakdown of how most identity incidents originate from upstream governance failures rather than tooling weaknesses.
 
