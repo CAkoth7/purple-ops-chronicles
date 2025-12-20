@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "IAM Failures Are Rarely About IAM"
-date: 2025-01-12
+date: 2025-12-10
 topic: Identity & Access Management, Cloud Risk
 reading_time: "~6 minutes"
 ---
