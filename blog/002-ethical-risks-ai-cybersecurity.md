@@ -102,5 +102,4 @@ Upmann, P. (2024, December 18). Who is Accountable When an AI System Makes Erron
 
 Vaishnavi. (2025, March 3). The Ethics of Using AI for Hacking and Security | Balancing Protection and Risk. WebAsha Technologies. https://www.webasha.com/blog/the-ethics-of-using-ai-for-hacking-and-security-balancing-protection-and-risk
 
-<img width="468" height="642" alt="image" src="https://github.com/user-attachments/assets/063a0755-024c-4789-9784-044cbdf57677" />
 
