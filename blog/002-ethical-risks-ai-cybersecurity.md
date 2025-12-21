@@ -6,7 +6,7 @@ topic: "AI Governance, Cybersecurity Ethics"
 reading_time: "~12 minutes"
 ---
 
-<img src="{{ '/assets/images/posts/hero.jpg' | relative_url }}" alt="Hero Image">
+![AI and cybersecurity](../assets/images/posts/ethical-ai-cybersecurity/hero.jpg)
 
 ## Abstract
 
