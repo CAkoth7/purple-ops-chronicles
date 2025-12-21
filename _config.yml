@@ -2,3 +2,8 @@ title: PurpleOps Chronicles
 description: Reflections on identity, access, risk, and governance.
 markdown: kramdown
 theme: null
+
+
+baseurl: "/purple-ops-chronicles"        # empty if serving locally at localhost:4000
+
+url: "https://CAkoth7.github.io"
