@@ -5,6 +5,9 @@ date: 2025-12-18
 topic: "AI Governance, Cybersecurity Ethics"
 reading_time: "~12 minutes"
 ---
+
+![AI and cybersecurity](/assets/images/posts/ethical-ai-cybersecurity/hero.jpg)
+
 ## Abstract
 
 Artificial intelligence has become a central component of modern cybersecurity, enabling large-scale threat detection, automated response, and predictive security capabilities. However, its rapid adoption introduces a complex set of ethical and governance challenges that extend beyond technical performance.
