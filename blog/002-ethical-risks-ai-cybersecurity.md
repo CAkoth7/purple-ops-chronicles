@@ -6,7 +6,6 @@ topic: "AI Governance, Cybersecurity Ethics"
 reading_time: "~12 minutes"
 ---
 
-![AI and cybersecurity](../assets/images/posts/ethical-ai-cybersecurity/hero.jpg)
 
 ## Abstract
 
@@ -18,6 +17,23 @@ Drawing on recent research, regulatory developments, and real-world incidents, t
 
 
 ---
+
+```
+[ Data Sources ]
+        |
+        v
+[ AI Security Model ]
+        |
+        v
+[ Automated Decision ]
+        |
+        v
+[ Security Action ]
+        |
+        v
+[ Human Oversight (Often Missing) ]
+
+```
 
 ## Challenge
 
