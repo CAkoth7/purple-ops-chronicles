@@ -9,9 +9,9 @@ body {
 
 /* Layout */
 .container {
-  max-width: 720px;
+  max-width: 760px;          /* for essays */
   margin: 0 auto;
-  padding: 2rem 1.5rem;
+  padding: 2.5rem 2rem;      /* More breathing room */
 }
 
 /* Header */
@@ -99,7 +99,16 @@ pre {
 /* Improve long-form reading */
 .content {
   font-size: 1.05rem;
-  line-height: 1.75;
+  line-height: 1.8;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+/* Prevent awkward justification on small screens */
+@media (max-width: 640px) {
+  .content {
+    text-align: left;
+  }
 }
 
 /* Better paragraph rhythm */
@@ -126,16 +135,18 @@ pre {
 
 /* Post images */
 .content img {
-  max-width: 100%;
+  max-width: 92%;
   display: block;
-  margin: 2.5rem auto;
-  border-radius: 10px;
+  margin: 3rem auto;
+  border-radius: 12px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
 }
 
 /* Hero image (first image in post) */
 .content img:first-of-type {
-  margin-top: 1.5rem;
-  margin-bottom: 3.5rem;
+  max-width: 100%;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
 }
 
 /* Figure captions */
