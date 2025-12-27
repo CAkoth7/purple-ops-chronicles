@@ -18,22 +18,7 @@ Drawing on recent research, regulatory developments, and real-world incidents, t
 
 ---
 
-```text
-[ Data Sources ]
-        |
-        v
-[ AI Security Model ]
-        |
-        v
-[ Automated Decision ]
-        |
-        v
-[ Security Action ]
-        |
-        v
-[ Human Oversight (Often Missing) ]
-
-```
+![AI cybersecurity decision flow showing missing human oversight](/assets/images/diagrams/ai-cybersecurity-decision-flow.svg)
 
 ---
 
