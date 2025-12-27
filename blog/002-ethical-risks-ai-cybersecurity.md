@@ -18,7 +18,7 @@ Drawing on recent research, regulatory developments, and real-world incidents, t
 
 ---
 
-```
+```text
 [ Data Sources ]
         |
         v
@@ -34,6 +34,8 @@ Drawing on recent research, regulatory developments, and real-world incidents, t
 [ Human Oversight (Often Missing) ]
 
 ```
+
+---
 
 ## Challenge
 
