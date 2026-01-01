@@ -20,11 +20,12 @@ Drawing on recent research, regulatory developments, and real-world incidents, t
 
 <figure>
   <img
-    src="{{ '/assets/images/diagrams/ai-cybersecurity-decision-flow.svg' | relative_url }}"
-    alt="AI-driven cybersecurity decision flow highlighting absence of human oversight"
+    src="{{ '/assets/images/diagrams/iam-grc-operating-model.svg' | relative_url }}"
+    alt="IAM and GRC operating model showing governance, ownership, and control flow"
+    style="width:100%; max-width:720px;"
   >
   <figcaption>
-    Figure 1 — AI-driven security decisions often proceed without effective human governance checkpoints.
+    Figure 1 — IAM functions effectively when governance, risk ownership, and technical controls are clearly aligned.
   </figcaption>
 </figure>
 
