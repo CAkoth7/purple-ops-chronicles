@@ -67,16 +67,28 @@ a:hover {
 }
 
 /* Tables */
+/* Tables — governance & reporting style */
 table {
   border-collapse: collapse;
   width: 100%;
-  margin: 1.5rem 0;
+  margin: 2rem 0;
+  font-size: 0.95rem;
 }
 
-th, td {
-  border-bottom: 1px solid #ddd;
-  padding: 0.5rem;
+th {
   text-align: left;
+  padding: 0.75rem;
+  border-bottom: 2px solid #c7b7e2;
+  color: #2b1c3f;
+}
+
+td {
+  padding: 0.75rem;
+  border-bottom: 1px solid #e0d9f2;
+}
+
+tr:last-child td {
+  border-bottom: none;
 }
 
 /* Code blocks (your diagrams) */
