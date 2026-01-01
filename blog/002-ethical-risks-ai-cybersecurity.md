@@ -18,7 +18,13 @@ Drawing on recent research, regulatory developments, and real-world incidents, t
 
 ---
 
-![AI cybersecurity decision flow showing missing human oversight](/assets/images/diagrams/ai-cybersecurity-decision-flow.svg)
+<figure>
+  <img src="{{ '/assets/images/diagrams/ai-cybersecurity-decision-flow.svg' | relative_url }}"
+       alt="AI-driven cybersecurity decision flow highlighting absence of human oversight">
+  <figcaption>
+    Figure 1 — AI-driven security decisions often proceed without effective human governance checkpoints.
+  </figcaption>
+</figure>
 
 ---
 
