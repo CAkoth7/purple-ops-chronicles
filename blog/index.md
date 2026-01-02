@@ -2,25 +2,23 @@
 layout: default
 title: Blog
 ---
+
 # Blog
 
 Reflections and field notes on identity, access, risk, cloud security, and governance written from practice and theory.
 
 ---
+
 ## Posts
 
-### IAM Failures Are Rarely About IAM  
-**December 10, 2025 · Identity & Access Management, Cloud Risk · ~6 minutes**
+{% for post in site.posts %}
+### {{ post.title }}
+**{{ post.date | date: "%B %d, %Y" }}{% if post.topic %} · {{ post.topic }}{% endif %}{% if post.reading_time %} · {{ post.reading_time }}{% endif %}**
 
-A practical breakdown of how most identity incidents originate from upstream governance failures rather than tooling weaknesses.
+{{ post.excerpt }}
 
-[Read post →](001-iam-root-cause.md)
-
-### Ethical Challenges and Risks of AI in Cybersecurity
-**December 18, 2025 · AI Governance, Cybersecurity Ethics · ~12 minutes**
-
-An in-depth examination of the ethical, governance, and regulatory risks introduced by AI-driven cybersecurity systems, including privacy, bias, explainability, accountability, adversarial manipulation, and dual-use concerns.
-
-[Read →](002-ethical-risks-ai-cybersecurity.html)
+[Read post →]({{ post.url | relative_url }})
 
 ---
+{% endfor %}
+
