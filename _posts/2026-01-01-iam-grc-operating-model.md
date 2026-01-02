@@ -14,14 +14,9 @@ This article presents a **practical IAM & GRC operating model** that shifts IAM 
 
 ---
 
-<figure>
-  <img
-    src="{{ '/assets/images/diagrams/iam-grc-operating-model.svg' | relative_url }}"
-    alt="IAM and GRC operating model showing governance, ownership, and control flow">
-  <figcaption>
-    Figure 1 — IAM functions effectively when governance, risk ownership, and technical controls are clearly aligned.
-  </figcaption>
-</figure>
+![IAM & GRC Operating Model]({{ "/assets/images/diagrams/iam-grc-operating-model.svg" | relative_url }})
+
+*Figure 1 — IAM functions effectively when governance, risk ownership, and technical controls are clearly aligned.*
 
 ---
 
