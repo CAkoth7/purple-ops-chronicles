@@ -59,7 +59,7 @@ An effective IAM programme requires **explicit decision rights and accountabilit
 
 ---
 
-## Scope of the Operating Model (Project Definition)
+## Scope of the Operating Model
 
 This operating model assumes:
 - A mid-sized to large regulated organisation
@@ -131,17 +131,17 @@ This approach enables leadership to allocate effort where it matters most.
 
 Core Artefacts Produced
 
-An IAM & GRC operating model produces management-grade outputs, not just technical configurations.
+ An IAM & GRC operating model produces management-grade outputs, not just technical configurations.
 
-Key Artefacts
+Key Artefacts:
 
-IAM risk register - owned by business
+ -IAM risk register - owned by business
 
-RACI matrix for access decisions
+ -RACI matrix for access decisions
 
-Access review metrics dashboard
+ -Access review metrics dashboard
 
-Executive IAM status reporting
+ -Executive IAM status reporting
 
 These artefacts support audit, executive oversight, and operational improvement.
 
