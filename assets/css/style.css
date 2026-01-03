@@ -48,3 +48,11 @@ hr {
   border-top: 1px solid #e5e7eb;
   margin: 2.5rem 0;
 }
+
+/* Blog post images — restrained and centered */
+.content img {
+  display: block;
+  max-width: 60%;
+  height: auto;
+  margin: 2rem auto;
+}
