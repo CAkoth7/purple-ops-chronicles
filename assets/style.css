@@ -160,11 +160,11 @@ pre {
   box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
 }
 
-/* First image acts as hero */
+/* First image should NOT behave like a hero */
 .content img:first-of-type {
-  max-width: 100%;
-  margin-top: 2rem;
-  margin-bottom: 4rem;
+  max-width: 70%;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 /* Figures */
@@ -174,7 +174,7 @@ figure {
 
 /* Governance diagrams — McKinsey-style */
 figure img {
-  max-width: 68%;
+  max-width: 55%;
   border-radius: 6px;
   border: 1px solid #e5e7eb;
   box-shadow: none;
