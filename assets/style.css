@@ -223,3 +223,7 @@ figcaption {
   font-size: 0.85rem;
   color: #555;
 }
+
+.content table {
+  text-align: left;
+}
