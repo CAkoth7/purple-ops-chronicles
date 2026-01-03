@@ -112,27 +112,44 @@ a:hover {
 /* ===========================
    Tables — governance & reporting style
    =========================== */
+
 table {
-  border-collapse: collapse;
   width: 100%;
-  margin: 2rem 0;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin: 2.5rem 0;
   font-size: 0.95rem;
+  border: 1px solid #e5e7eb;   /* Outer frame */
+  border-radius: 8px;
+  overflow: hidden;
+  background: #ffffff;
 }
 
+/* Header row */
 th {
   text-align: left;
-  padding: 0.75rem;
-  border-bottom: 2px solid #c7b7e2;
+  padding: 0.9rem 1rem;
+  background: #f4f2f8;
   color: #2b1c3f;
+  font-weight: 600;
+  border-bottom: 1px solid #d6cfea;
 }
 
+/* Body cells */
 td {
-  padding: 0.75rem;
-  border-bottom: 1px solid #e0d9f2;
+  padding: 0.85rem 1rem;
+  border-bottom: 1px solid #e5e7eb;
+  vertical-align: top;
 }
 
+/* Remove last row border */
 tr:last-child td {
   border-bottom: none;
+}
+
+/* Optional: subtle row separation */
+tbody tr:nth-child(even) {
+  background: #faf9fd;
 }
 
 /* ===========================
