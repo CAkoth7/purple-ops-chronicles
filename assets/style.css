@@ -147,11 +147,6 @@ tr:last-child td {
   border-bottom: none;
 }
 
-/* Optional: subtle row separation */
-tbody tr:nth-child(even) {
-  background: #faf9fd;
-}
-
 /* ===========================
    Code blocks / ASCII diagrams
    =========================== */
