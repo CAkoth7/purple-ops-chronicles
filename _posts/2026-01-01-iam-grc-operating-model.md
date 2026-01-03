@@ -110,27 +110,27 @@ The model below defines how IAM decisions should flow from **business risk appet
 
 ### Key Role Responsibilities
 
-| Role                 | Primary Responsibility                    |
-| -------------------- | ----------------------------------------- |
+| Role | Primary Responsibility |
+|------|------------------------|
 | Executive Leadership | Defines risk tolerance and accountability |
-| Business Owners      | Accept or reject access risk               |
-| GRC Function         | Monitors control effectiveness             |
-| IAM Governance       | Designs access models and standards        |
-| Security / IT        | Implements and enforces controls           |
+| Business Owners | Accept or reject access risk |
+| GRC Function | Monitors control effectiveness |
+| IAM Governance | Designs access models and standards |
+| Security / IT | Implements and enforces controls |
 
 ---
 
-Risk-based decision-making
+### Risk-based decision-making
 
 A management-led IAM programme prioritises controls based on impact and likelihood, not uniform compliance.
 
-**Consider the following**
+#### Example prioritisation
 
-| Access Type           | Risk Level | Governance Decision     |
-| --------------------- | ---------- | --------------------- |
-| Cloud admin roles     | High       | Continuous monitoring  |
-| Third-party access    | Medium     | Time-bound approvals   |
-| Internal applications | Low        | Periodic review        |
+| Access Type | Risk Level | Governance Decision |
+|------------|------------|---------------------|
+| Cloud admin roles | High | Continuous monitoring |
+| Third-party access | Medium | Time-bound approvals |
+| Internal applications | Low | Periodic review |
 
 This approach enables leadership to allocate effort where it matters most.
 
