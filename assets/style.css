@@ -174,7 +174,9 @@ figure {
 
 /* Governance diagrams — McKinsey-style */
 figure img {
-  max-width: 55%;
+  max-width: 520px;
+  width: 100%;
+  margin: 2.5rem auto;
   border-radius: 6px;
   border: 1px solid #e5e7eb;
   box-shadow: none;
