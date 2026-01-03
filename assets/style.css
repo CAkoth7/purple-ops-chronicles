@@ -149,33 +149,26 @@ pre {
    Images & Figures
    =========================== */
 
-/* General post images */
-/* Post images — governance diagrams */
-.content img {
+/* Standalone images inside content (non-figure) */
+.content > img {
   display: block;
-  max-width: 45%;
+  max-width: 70%;
   height: auto;
   margin: 3rem auto;
   border-radius: 10px;
   box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
 }
 
-/* First image ONLY when NOT inside a figure (hero-style images) */
-.content > img:first-of-type {
-  max-width: 70%;
+/* Editorial figures — governance diagrams */
+figure {
+  max-width: 60%;
   margin: 3rem auto;
 }
 
-/* Figures */
-figure {
-  margin: 3rem 0;
-}
-
-/* Governance diagrams — restrained, consulting-style */
 figure img {
-  max-width: 55%;
+  width: 100%;
   height: auto;
-  margin: 2rem auto;
+  display: block;
   border-radius: 6px;
   border: 1px solid #e5e7eb;
   box-shadow: none;
