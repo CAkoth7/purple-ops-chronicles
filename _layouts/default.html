@@ -9,21 +9,23 @@
 <body>
 
   <header>
-    <h1><a href="/">PurpleOps Chronicles</a></h1>
- <nav>
-  <a href="/purple-ops-chronicles/">Home</a> |
-  <a href="/purple-ops-chronicles/about/">About</a> |
-  <a href="/purple-ops-chronicles/blog/">Blog</a> |
-  <a href="/purple-ops-chronicles/research/">Research</a>
- </nav>
+    <h1>
+      <a href="{{ '/' | relative_url }}">PurpleOps Chronicles</a>
+    </h1>
+
+    <nav>
+      <a href="{{ '/' | relative_url }}">Home</a> |
+      <a href="{{ '/about/' | relative_url }}">About</a> |
+      <a href="{{ '/blog/' | relative_url }}">Blog</a> |
+      <a href="{{ '/research/' | relative_url }}">Research</a>
+    </nav>
+
     <hr>
   </header>
 
-  <main class="content">
-  <article>
+  <main>
     {{ content }}
-  </article>
-</main>
+  </main>
 
 </body>
 </html>
