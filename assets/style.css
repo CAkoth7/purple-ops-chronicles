@@ -1,4 +1,6 @@
-/* Base reset */
+/* ===========================
+   Base reset
+   =========================== */
 body {
   margin: 0;
   font-family: "Georgia", "Times New Roman", serif;
@@ -7,14 +9,18 @@ body {
   line-height: 1.7;
 }
 
-/* Layout */
+/* ===========================
+   Layout
+   =========================== */
 .container {
-  max-width: 760px;          /* for essays */
+  max-width: 760px;          /* Long-form essays */
   margin: 0 auto;
-  padding: 2.5rem 2rem;      /* More breathing room */
+  padding: 2.5rem 2rem;
 }
 
-/* Header */
+/* ===========================
+   Header
+   =========================== */
 .site-header {
   background: #2b1c3f;
   color: #ffffff;
@@ -32,31 +38,68 @@ body {
   opacity: 0.85;
 }
 
-/* Content */
+/* ===========================
+   Content Typography
+   =========================== */
+.content {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+@media (max-width: 640px) {
+  .content {
+    text-align: left;
+  }
+}
+
 .content h1,
 .content h2,
 .content h3 {
   color: #2b1c3f;
-  margin-top: 2.5rem;
 }
 
 .content h1 {
   font-size: 2rem;
+  margin-top: 2.5rem;
 }
 
 .content h2 {
   font-size: 1.4rem;
+  margin-top: 3.5rem;
 }
 
 .content h3 {
   font-size: 1.1rem;
+  margin-top: 2.5rem;
 }
 
 .content p {
-  margin: 1rem 0;
+  margin: 1.25rem 0;
 }
 
-/* Links */
+/* Abstract callout */
+.content h2:first-of-type + p {
+  font-style: italic;
+  color: #4b5563;
+  border-left: 3px solid #e5ddff;
+  padding-left: 1rem;
+}
+
+/* Drop cap for first paragraph */
+.content p:first-of-type::first-letter {
+  float: left;
+  font-size: 3rem;
+  line-height: 1;
+  margin-right: 0.5rem;
+  font-weight: 500;
+  color: #2b1c3f;
+}
+
+/* ===========================
+   Links
+   =========================== */
 a {
   color: #5b2d8b;
   text-decoration: none;
@@ -66,8 +109,9 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Tables */
-/* Tables — governance & reporting style */
+/* ===========================
+   Tables — governance & reporting style
+   =========================== */
 table {
   border-collapse: collapse;
   width: 100%;
@@ -91,7 +135,9 @@ tr:last-child td {
   border-bottom: none;
 }
 
-/* Code blocks (your diagrams) */
+/* ===========================
+   Code blocks / ASCII diagrams
+   =========================== */
 pre {
   background: #f0eef4;
   padding: 1rem;
@@ -99,86 +145,50 @@ pre {
   border-left: 4px solid #5b2d8b;
 }
 
-/* Footer */
-.site-footer {
-  border-top: 1px solid #ddd;
-  font-size: 0.85rem;
-  color: #555;
-}
+/* ===========================
+   Images & Figures
+   =========================== */
 
-/* === LONG-FORM POST ENHANCEMENTS (ADD BELOW) === */
-
-/* Improve long-form reading */
-.content {
-  font-size: 1.05rem;
-  line-height: 1.8;
-  text-align: justify;
-  text-justify: inter-word;
-}
-
-/* Prevent awkward justification on small screens */
-@media (max-width: 640px) {
-  .content {
-    text-align: left;
-  }
-}
-
-/* Better paragraph rhythm */
-.content p {
-  margin: 1.25rem 0;
-}
-
-/* Section spacing */
-.content h2 {
-  margin-top: 3.5rem;
-}
-
-.content h3 {
-  margin-top: 2.5rem;
-}
-
-/* Abstract callout */
-.content h2:first-of-type + p {
-  font-style: italic;
-  color: #4b5563;
-  border-left: 3px solid #e5ddff;
-  padding-left: 1rem;
-}
-
-/* Post images */
+/* General post images */
 .content img {
   max-width: 92%;
+  height: auto;
   display: block;
   margin: 3rem auto;
-  border-radius: 12px;
-  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
 }
 
-/* Hero image (first image in post) */
+/* First image acts as hero */
 .content img:first-of-type {
   max-width: 100%;
   margin-top: 2rem;
   margin-bottom: 4rem;
 }
 
-/* Figure captions */
+/* Figures */
 figure {
   margin: 3rem 0;
 }
 
+/* Governance diagrams — McKinsey-style */
+figure img {
+  max-width: 100%;
+  border-radius: 6px;
+  border: 1px solid #e5e7eb;
+  box-shadow: none;
+}
+
+/* Figure captions */
 figcaption {
   text-align: center;
-  font-size: 0.85rem;
+  font-size: 0.8rem;
+  font-style: italic;
   color: #6b7280;
-  margin-top: 0.5rem;
+  margin-top: 0.75rem;
 }
 
-/* References section */
-.content h2:last-of-type {
-  border-top: 1px solid #e5e7eb;
-  padding-top: 2rem;
-}
-
+/* ===========================
+   Lists
+   =========================== */
 .content ul,
 .content ol {
   padding-left: 1.25rem;
@@ -188,13 +198,19 @@ figcaption {
   margin-bottom: 0.75rem;
 }
 
-/* Drop cap for first paragraph */
-.content p:first-of-type::first-letter {
-  float: left;
-  font-size: 3rem;
-  line-height: 1;
-  margin-right: 0.5rem;
-  font-weight: 500;
-  color: #2b1c3f;
+/* ===========================
+   References / last section
+   =========================== */
+.content h2:last-of-type {
+  border-top: 1px solid #e5e7eb;
+  padding-top: 2rem;
 }
 
+/* ===========================
+   Footer
+   =========================== */
+.site-footer {
+  border-top: 1px solid #ddd;
+  font-size: 0.85rem;
+  color: #555;
+}
