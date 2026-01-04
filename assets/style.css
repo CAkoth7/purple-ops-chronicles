@@ -150,6 +150,36 @@ pre {
 }
 
 /* ===========================
+   Tables — force visible borders (GitHub Pages safe)
+   =========================== */
+
+.post table {
+  width: 100%;
+  border-collapse: collapse !important;
+  margin: 2.5rem 0;
+  font-size: 0.95rem;
+  background: #ffffff;
+  border: 1px solid #d6cfea;
+}
+
+.post th,
+.post td {
+  padding: 0.85rem 1rem;
+  border: 1px solid #e5e7eb;
+  vertical-align: top;
+}
+
+.post th {
+  background: #f4f2f8;
+  font-weight: 600;
+  color: #2b1c3f;
+}
+
+.post tr:nth-child(even) td {
+  background: #faf9fd;
+}
+
+/* ===========================
    Images & Figures
    =========================== */
 
