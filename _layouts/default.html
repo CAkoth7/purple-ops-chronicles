@@ -4,28 +4,22 @@
   <meta charset="UTF-8">
   <title>{{ page.title }} | PurpleOps Chronicles</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- MUST be present -->
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
 
-  <header>
-    <h1>
-      <a href="{{ '/' | relative_url }}">PurpleOps Chronicles</a>
-    </h1>
+<header>
+  <h1><a href="{{ '/' | relative_url }}">PurpleOps Chronicles</a></h1>
+</header>
 
-    <nav>
-      <a href="{{ '/' | relative_url }}">Home</a> |
-      <a href="{{ '/about/' | relative_url }}">About</a> |
-      <a href="{{ '/blog/' | relative_url }}">Blog</a> |
-      <a href="{{ '/research/' | relative_url }}">Research</a>
-    </nav>
-
-    <hr>
-  </header>
-
-  <main>
+<main class="container">
+  <article class="content">
     {{ content }}
-  </main>
+  </article>
+</main>
 
 </body>
 </html>
+
