@@ -227,3 +227,16 @@ pre {
   font-size: 0.85rem;
   color: #555;
 }
+
+/* === HARD OVERRIDE — TABLES === */
+article table {
+  width: 100%;
+  border-collapse: collapse !important;
+  border: 2px solid #000 !important;
+}
+
+article th,
+article td {
+  border: 1px solid #000 !important;
+  padding: 10px !important;
+}
