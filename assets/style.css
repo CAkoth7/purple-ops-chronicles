@@ -203,3 +203,58 @@ figcaption {
   padding: 2rem;
 }
 
+/* ===========================
+   HARD OVERRIDE — TABLES (FINAL)
+   =========================== */
+
+/* Force tables to render with visible borders no matter what */
+article.content table {
+  display: table;
+  width: 100% !important;
+  border-collapse: collapse !important;
+  border-spacing: 0 !important;
+  margin: 2.5rem 0 !important;
+  background: #ffffff !important;
+  border: 2px solid #d6cfea !important;
+}
+
+article.content th,
+article.content td {
+  display: table-cell;
+  padding: 0.85rem 1rem !important;
+  border: 1px solid #cfc7ea !important;
+  text-align: left !important;
+  vertical-align: top;
+  background-clip: padding-box;
+}
+
+article.content th {
+  background: #f4f2f8 !important;
+  font-weight: 600;
+  color: #2b1c3f;
+}
+
+article.content tr:nth-child(even) td {
+  background: #faf9fd;
+}
+
+/* ===========================
+   HARD OVERRIDE — IMAGES
+   =========================== */
+
+article.content img {
+  max-width: 100% !important;
+  height: auto !important;
+}
+
+article.content figure {
+  max-width: 60% !important;
+  margin: 3rem auto !important;
+}
+
+article.content figure img {
+  width: 100% !important;
+  display: block;
+}
+
+
