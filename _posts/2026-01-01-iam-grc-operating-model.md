@@ -142,19 +142,19 @@ This approach enables leadership to allocate effort where it matters most.
 
 Key Artefacts include:
 
- -IAM risk register - owned by business
+ - IAM risk register - owned by business
 
- -RACI matrix for access decisions
+ - RACI matrix for access decisions
 
- -Access review metrics dashboard
+ - Access review metrics dashboard
 
- -Executive IAM status reporting
+ - Executive IAM status reporting
 
 These artefacts support audit, executive oversight, and operational improvement.
 
 ---
 
-Metrics That Indicate Control Health
+### Metrics That Indicate Control Health
 
 Effective IAM governance is measurable.
 
