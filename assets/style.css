@@ -1,13 +1,7 @@
-/* rebuild trigger */
 
 /* ===========================
    Base reset
    =========================== */
-
-* {
-  box-sizing: border-box;
-}
-
 body {
   margin: 0;
   font-family: "Georgia", "Times New Roman", serif;
@@ -19,7 +13,6 @@ body {
 /* ===========================
    Layout
    =========================== */
-
 .container {
   max-width: 760px;
   margin: 0 auto;
@@ -29,78 +22,68 @@ body {
 /* ===========================
    Header
    =========================== */
-
 .site-header {
   background: #2b1c3f;
   color: #ffffff;
+  padding: 1.5rem 2rem;
 }
 
-.site-title {
-  margin: 0;
-  font-size: 1.8rem;
+.site-title a {
+  color: #ffffff;
+  text-decoration: none;
   font-weight: normal;
 }
 
-.site-tagline {
-  margin-top: 0.25rem;
-  font-size: 0.95rem;
-  opacity: 0.85;
-}
-
 /* ===========================
-   Content typography
+   Content Typography
    =========================== */
-
-.content,
-.post {
+.content {
   font-size: 1.05rem;
   line-height: 1.8;
   text-align: justify;
-  text-justify: inter-word;
 }
 
 @media (max-width: 640px) {
-  .content,
-  .post {
+  .content {
     text-align: left;
   }
 }
 
-.post h1,
-.post h2,
-.post h3 {
+.content h1,
+.content h2,
+.content h3 {
   color: #2b1c3f;
 }
 
-.post h1 {
+.content h1 {
   font-size: 2rem;
   margin-top: 2.5rem;
 }
 
-.post h2 {
+.content h2 {
   font-size: 1.4rem;
   margin-top: 3.5rem;
 }
 
-.post h3 {
+.content h3 {
   font-size: 1.1rem;
   margin-top: 2.5rem;
 }
 
-.post p {
+.content p {
   margin: 1.25rem 0;
 }
 
 /* Abstract callout */
-.post h2:first-of-type + p {
+.content h2:first-of-type + p {
   font-style: italic;
   color: #4b5563;
   border-left: 3px solid #e5ddff;
   padding-left: 1rem;
 }
 
-/* Drop cap for first paragraph */
-.post p:first-of-type::first-letter {
+/* Drop cap */
+.content p:first-of-type::first-letter {
   float: left;
   font-size: 3rem;
   line-height: 1;
@@ -112,7 +95,6 @@ body {
 /* ===========================
    Links
    =========================== */
-
 a {
   color: #5b2d8b;
   text-decoration: none;
@@ -123,10 +105,10 @@ a:hover {
 }
 
 /* ===========================
-   Tables — governance / research style
+   TABLES — GOVERNANCE STYLE (FIXED)
    =========================== */
 
-.post table {
+.content table {
   width: 100%;
   border-collapse: collapse !important;
   margin: 2.5rem 0;
@@ -135,28 +117,27 @@ a:hover {
   border: 1px solid #d6cfea;
 }
 
-.post th,
-.post td {
+.content th,
+.content td {
   padding: 0.85rem 1rem;
   border: 1px solid #e5e7eb;
   vertical-align: top;
   text-align: left;
 }
 
-.post th {
+.content th {
   background: #f4f2f8;
   font-weight: 600;
   color: #2b1c3f;
 }
 
-.post tr:nth-child(even) td {
+.content tr:nth-child(even) td {
   background: #faf9fd;
 }
 
 /* ===========================
    Code blocks / ASCII diagrams
    =========================== */
-
 pre {
   background: #f0eef4;
   padding: 1rem;
@@ -165,24 +146,28 @@ pre {
 }
 
 /* ===========================
-   Editorial diagrams (IAM / GRC)
+   Images & Figures (FIXED)
    =========================== */
 
-.post figure {
+.content img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Editorial figures */
+.content figure {
   max-width: 65%;
   margin: 3rem auto;
 }
 
-.post figure img {
+.content figure img {
   width: 100%;
-  height: auto;
   display: block;
   border-radius: 6px;
   border: 1px solid #e5e7eb;
-  box-shadow: none;
 }
 
-.post figcaption {
+figcaption {
   text-align: center;
   font-size: 0.8rem;
   font-style: italic;
@@ -191,7 +176,7 @@ pre {
 }
 
 @media (max-width: 768px) {
-  .post figure {
+  .content figure {
     max-width: 100%;
   }
 }
@@ -199,44 +184,22 @@ pre {
 /* ===========================
    Lists
    =========================== */
-
-.post ul,
-.post ol {
+.content ul,
+.content ol {
   padding-left: 1.25rem;
 }
 
-.post li {
+.content li {
   margin-bottom: 0.75rem;
-}
-
-/* ===========================
-   References / last section
-   =========================== */
-
-.post h2:last-of-type {
-  border-top: 1px solid #e5e7eb;
-  padding-top: 2rem;
 }
 
 /* ===========================
    Footer
    =========================== */
-
 .site-footer {
   border-top: 1px solid #ddd;
   font-size: 0.85rem;
   color: #555;
+  padding: 2rem;
 }
 
-/* === HARD OVERRIDE — TABLES === */
-article table {
-  width: 100%;
-  border-collapse: collapse !important;
-  border: 2px solid #000 !important;
-}
-
-article th,
-article td {
-  border: 1px solid #000 !important;
-  padding: 10px !important;
-}
