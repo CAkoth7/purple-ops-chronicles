@@ -3,8 +3,7 @@ description: Reflections on identity, access, risk, and governance.
 markdown: kramdown
 kramdown:
   input: GFM
-theme: null
-
+hard_wrap: false
 
 baseurl: "/purple-ops-chronicles"        # empty if serving locally at localhost:4000
 
